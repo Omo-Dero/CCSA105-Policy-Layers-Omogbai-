@@ -1,0 +1,5 @@
+Service-Control is evaluated before Network. 
+Traffic must first match an allow rule in Service-Control before being evaluated by Network. 
+Because ordered layers are processed top-down, changing the order changes which layer logs or drops traffic first even when the final user experience remains unchanged.
+
+I am unable to performs the tests due to inavailability of gateway vm
